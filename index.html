@@ -1,1 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+    
+    <!-- Optimized Meta Description for SEO -->
+    <meta name="description" content="HiAnime - Watch anime online free with English SUB and DUB in HD quality. Stream latest anime episodes without ads. Your ultimate anime destination.">
+    
+    <!-- Relevant SEO Keywords -->
+    <meta name="keywords" content="hianime, watch anime online, free anime streaming, anime SUB, anime DUB, HD anime, latest anime episodes, anime without ads, best anime site">
+    
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="HiAnime - Watch Anime Online Free | SUB & DUB HD Quality">
+    <meta property="og:description" content="Stream the latest anime episodes for free with English subtitles and dubbing. High-quality anime streaming without ads at HiAnime.co.at">
+    <meta property="og:image" content="https://hianime.co.at/wp-content/uploads/2025/06/hianime-og-image.jpg">
+    <meta property="og:url" content="https://hianime.co.at/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card for Social Sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HiAnime - Free Anime Streaming | SUB & DUB HD">
+    <meta name="twitter:description" content="Watch your favorite anime series and movies online free. Latest episodes with English SUB/DUB in HD quality.">
+    <meta name="twitter:image" content="https://hianime.co.at/wp-content/uploads/2025/06/hianime-twitter-card.jpg">
+    <meta name="twitter:site" content="@hianimez">
+
+    <!-- SEO Title -->
+    <title>HiAnime - Watch Anime Online Free | English SUB & DUB HD Quality</title>
+
+    <!-- Website Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "HiAnime",
+        "url": "https://hianime.co.at/",
+        "description": "Watch anime online free with English SUB and DUB in HD quality. Stream latest anime episodes without ads at HiAnime.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "HiAnime",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://hianime.co.at/wp-content/uploads/2025/06/hianime-logo.png",
+                "width": 300,
+                "height": 100
+            },
+            "foundingDate": "2025",
+            "sameAs": [
+                "https://www.youtube.com/@hianime-official-channel",
+                "https://x.com/hianimez",
+                "https://facebook.com/hianimeofficialpage",
+                "https://myanimelist.net/profile/hianime_official"
+            ]
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://hianime.co.at/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://hianime.co.at/">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        /* Modern Anime-themed Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .hero-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .anime-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .anime-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .anime-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .anime-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .anime-card-content {
+            padding: 20px;
+        }
+
+        .anime-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .cta-section {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+
+        .social-links {
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 15px;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #4ecdc4;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .hero-section h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">HiAnime</div>
+            <p>Your Ultimate Anime Streaming Destination</p>
+            <nav>
+                <ul>
+                    <li><a href="https://hianime.co.at/">🏠 Home</a></li>
+                    <li><a href="https://hianime.co.at/anime-list/">📺 Anime Series</a></li>
+                    <li><a href="https://hianime.co.at/movies/">🎬 Movies</a></li>
+                    <li><a href="https://hianime.co.at/latest/">🆕 Latest</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <h1>Watch Anime Online Free - HD Quality</h1>
+            <p>Experience the best anime streaming with English SUB and DUB options. No ads, no registration required. Stream your favorite anime series and movies in crystal-clear HD quality at HiAnime.co.at</p>
+            <a href="https://hianime.co.at/" class="cta-button">Start Watching Now →</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🎭</div>
+                <h3>SUB & DUB Available</h3>
+                <p>Watch anime with English subtitles or dubbed versions. Choose your preferred viewing experience.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>Mobile Friendly</h3>
+                <p>Stream anime on any device - desktop, tablet, or mobile. Responsive design for optimal viewing.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Streaming</h3>
+                <p>Lightning-fast servers ensure smooth playback without buffering. HD quality guaranteed.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🆓</div>
+                <h3>Completely Free</h3>
+                <p>No subscription fees, no hidden costs. Enjoy unlimited anime streaming absolutely free.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center; color: white; margin-bottom: 30px; font-size: 2em;">🔥 Popular Anime Series</h2>
+            <div class="anime-grid">
+                <div class="anime-card">
+                    <img src="https://hianime.co.at/wp-content/uploads/2025/06/attack-on-titan.jpg" alt="Attack on Titan - Watch Free on HiAnime">
+                    <div class="anime-card-content">
+                        <h3>Attack on Titan</h3>
+                        <p>Humanity fights for survival against giant Titans in this epic anime series. Watch all seasons with SUB/DUB on HiAnime.</p>
+                    </div>
+                </div>
+                <div class="anime-card">
+                    <img src="https://hianime.co.at/wp-content/uploads/2025/06/one-piece.jpg" alt="One Piece - Stream Free on HiAnime">
+                    <div class="anime-card-content">
+                        <h3>One Piece</h3>
+                        <p>Follow Luffy's adventure to become the Pirate King. Latest episodes available with English SUB and DUB.</p>
+                    </div>
+                </div>
+                <div class="anime-card">
+                    <img src="https://hianime.co.at/wp-content/uploads/2025/06/demon-slayer.jpg" alt="Demon Slayer - Watch HD on HiAnime">
+                    <div class="anime-card-content">
+                        <h3>Demon Slayer</h3>
+                        <p>Tanjiro's journey to save his sister and defeat demons. Stunning animation in HD quality.</p>
+                    </div>
+                </div>
+                <div class="anime-card">
+                    <img src="https://hianime.co.at/wp-content/uploads/2025/06/naruto.jpg" alt="Naruto - Free Streaming on HiAnime">
+                    <div class="anime-card-content">
+                        <h3>Naruto</h3>
+                        <p>The legendary ninja's complete story from Naruto to Boruto. All episodes available free.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Anime Schema -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Popular Anime Series on HiAnime",
+            "description": "Top-rated anime series available for free streaming on HiAnime.co.at",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "TVSeries",
+                        "name": "Attack on Titan",
+                        "description": "Humanity fights for survival against giant Titans in this epic anime series. Watch all seasons with SUB/DUB on HiAnime.",
+                        "url": "https://hianime.co.at/attack-on-titan",
+                        "image": "https://hianime.co.at/wp-content/uploads/2025/06/attack-on-titan.jpg",
+                        "genre": ["Action", "Drama", "Fantasy"],
+                        "inLanguage": ["Japanese", "English"]
+                    }
+                },
+                {
+                    "@type": "ListItem", 
+                    "position": 2,
+                    "item": {
+                        "@type": "TVSeries",
+                        "name": "One Piece",
+                        "description": "Follow Luffy's adventure to become the Pirate King. Latest episodes available with English SUB and DUB.",
+                        "url": "https://hianime.co.at/one-piece",
+                        "image": "https://hianime.co.at/wp-content/uploads/2025/06/one-piece.jpg",
+                        "genre": ["Adventure", "Comedy", "Shounen"],
+                        "inLanguage": ["Japanese", "English"]
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "TVSeries",
+                        "name": "Demon Slayer",
+                        "description": "Tanjiro's journey to save his sister and defeat demons. Stunning animation in HD quality.",
+                        "url": "https://hianime.co.at/anime/demon-slayer-kimetsu-no-yaiba-hashira-training-arc-s4/",
+                        "image": "https://hianime.co.at/wp-content/uploads/2025/06/demon-slayer.jpg",
+                        "genre": ["Action", "Supernatural", "Historical"],
+                        "inLanguage": ["Japanese", "English"]
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "TVSeries",
+                        "name": "Naruto",
+                        "description": "The legendary ninja's complete story from Naruto to Boruto. All episodes available free.",
+                        "url": "https://hianime.co.at/naruto",
+                        "image": "https://hianime.co.at/wp-content/uploads/2025/06/naruto.jpg",
+                        "genre": ["Action", "Martial Arts", "Shounen"],
+                        "inLanguage": ["Japanese", "English"]
+                    }
+                }
+            ]
+        }
+        </script>
+
+        <section class="cta-section">
+            <h2>Ready to Start Your Anime Journey?</h2>
+            <p>Join millions of anime fans who trust HiAnime for the best streaming experience. No ads, no interruptions, just pure anime enjoyment.</p>
+            <a href="https://hianime.co.at/" class="cta-button">Visit HiAnime.co.at Now!</a>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@hianime-official-channel" title="HiAnime YouTube">📺</a>
+                <a href="https://x.com/hianimez" title="HiAnime Twitter">🐦</a>
+                <a href="https://facebook.com/hianimeofficialpage" title="HiAnime Facebook">📘</a>
+                <a href="https://myanimelist.net/profile/hianime_official" title="HiAnime MyAnimeList">📋</a>
+            </div>
+            <p>&copy; 2025 HiAnime | <a style="color: #4ecdc4" href="https://hianime.co.at/" title="HiAnime Official">Free Anime Streaming</a> | All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                🌟 Experience the best anime streaming at HiAnime.co.at - Your ultimate anime destination!
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Enhanced user experience
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Add click tracking for anime cards
+            const animeCards = document.querySelectorAll('.anime-card');
+            animeCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const animeName = this.querySelector('h3').textContent;
+                    console.log(`User interested in: ${animeName}`);
+                    // You can add analytics tracking here
+                });
+            });
+
+            // Add loading animation
+            const cards = document.querySelectorAll('.anime-card, .feature-card');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+
+</html>
