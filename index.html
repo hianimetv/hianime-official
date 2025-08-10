@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Optimized Title -->
-    <title>HiAnime Official - Watch Anime Online Free | English SUB & DUB HD Quality</title>
+    <title>HiAnime & Aniwatch Official - Watch Anime Online Free | English SUB & DUB HD Quality</title>
     
     <!-- Meta Description -->
-    <meta name="description" content="HiAnime Official GitHub - Watch anime online free with English SUB and DUB in HD quality. Stream latest anime episodes without ads at hianime.co.at">
+    <meta name="description" content="HiAnime & Aniwatch Official - Watch anime online free with English SUB and DUB in HD quality. Stream latest anime episodes without ads at hianime.co.at and aniwatch.tv.in">
     
     <!-- Keywords -->
-    <meta name="keywords" content="hianime, watch anime online, free anime streaming, anime SUB, anime DUB, HD anime, latest anime episodes, github anime">
+    <meta name="keywords" content="hianime, aniwatch, watch anime online, free anime streaming, anime SUB, anime DUB, HD anime, latest anime episodes, github anime, aniwatch.tv.in">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="HiAnime Official - Free Anime Streaming Platform">
+    <meta property="og:title" content="HiAnime & Aniwatch Official - Free Anime Streaming Platform">
     <meta property="og:description" content="Watch anime online free with English SUB and DUB in HD quality. Latest episodes without ads.">
     <meta property="og:image" content="https://hianime.co.at/wp-content/uploads/2025/06/hianime-banner.jpg">
     <meta property="og:url" content="https://hianimetv.github.io/hianime-official/">
@@ -23,7 +23,7 @@
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HiAnime Official - Free Anime Streaming">
+    <meta name="twitter:title" content="HiAnime & Aniwatch Official - Free Anime Streaming">
     <meta name="twitter:description" content="Watch anime online free with English SUB and DUB in HD quality">
     <meta name="twitter:image" content="https://hianime.co.at/wp-content/uploads/2025/06/hianime-banner.jpg">
     <meta name="twitter:site" content="@hianimez">
@@ -36,23 +36,24 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "HiAnime Official",
+        "name": "HiAnime & Aniwatch Official",
         "url": "https://hianimetv.github.io/hianime-official/",
-        "description": "Official HiAnime GitHub page - Watch anime online free with English SUB and DUB in HD quality",
+        "description": "Official HiAnime & Aniwatch GitHub page - Watch anime online free with English SUB and DUB in HD quality",
         "publisher": {
             "@type": "Organization",
-            "name": "HiAnime",
+            "name": "HiAnime & Aniwatch",
             "url": "https://hianime.co.at/",
             "logo": "https://hianime.co.at/logo.png",
             "sameAs": [
                 "https://www.youtube.com/@hianime-official-channel",
                 "https://x.com/hianimez",
-                "https://github.com/hianimetv/hianime-official"
+                "https://github.com/hianimetv/hianime-official",
+                "https://aniwatch.tv.in/"
             ]
         },
         "mainEntity": {
             "@type": "WebApplication",
-            "name": "HiAnime Streaming Platform",
+            "name": "HiAnime & Aniwatch Streaming Platform",
             "url": "https://hianime.co.at/",
             "applicationCategory": "Entertainment",
             "operatingSystem": "Web Browser",
@@ -106,6 +107,42 @@
             animation: glow 2s ease-in-out infinite alternate;
         }
         
+        .dual-branding {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .brand-item {
+            text-align: center;
+        }
+        
+        .brand-logo {
+            font-size: 3.5em;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        .brand-domain {
+            font-size: 1.1em;
+            color: #4ecdc4;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        
+        .separator {
+            font-size: 3em;
+            color: #4ecdc4;
+            opacity: 0.6;
+        }
+        
         @keyframes glow {
             from { filter: drop-shadow(0 0 20px rgba(255, 107, 107, 0.3)); }
             to { filter: drop-shadow(0 0 30px rgba(78, 205, 196, 0.5)); }
@@ -148,6 +185,87 @@
         
         .cta-button.secondary {
             background: linear-gradient(45deg, #667eea, #764ba2);
+        }
+        
+        .cta-button.aniwatch {
+            background: linear-gradient(45deg, #e74c3c, #f39c12);
+        }
+        
+        /* Platforms Section */
+        .platforms {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            padding: 50px;
+            margin: 60px 0;
+            text-align: center;
+        }
+        
+        .platforms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .platform-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .platform-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border-color: #4ecdc4;
+        }
+        
+        .platform-name {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .platform-domain {
+            font-size: 1.3em;
+            color: #4ecdc4;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .platform-description {
+            opacity: 0.8;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .platform-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #4ecdc4, #45b7d1);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .platform-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .aniwatch-card .platform-button {
+            background: linear-gradient(45deg, #e74c3c, #f39c12);
         }
         
         /* Features Grid */
@@ -315,6 +433,19 @@
                 font-size: 2.5em;
             }
             
+            .dual-branding {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .brand-logo {
+                font-size: 2.5em;
+            }
+            
+            .separator {
+                display: none;
+            }
+            
             .cta-buttons {
                 flex-direction: column;
                 align-items: center;
@@ -335,6 +466,10 @@
                 width: 100%;
                 max-width: 250px;
                 justify-content: center;
+            }
+            
+            .platforms-grid {
+                grid-template-columns: 1fr;
             }
         }
         
@@ -360,13 +495,26 @@
     <div class="container">
         <!-- Header Section -->
         <header class="header fade-in">
-            <h1 class="logo">🎬 HiAnime</h1>
+            <div class="dual-branding">
+                <div class="brand-item">
+                    <h1 class="brand-logo">🎬 HiAnime</h1>
+                    <div class="brand-domain">hianime.co.at</div>
+                </div>
+                <div class="separator">&</div>
+                <div class="brand-item">
+                    <h1 class="brand-logo">🎭 Aniwatch</h1>
+                    <div class="brand-domain">aniwatch.tv.in</div>
+                </div>
+            </div>
             <p class="tagline">Your Ultimate Anime Streaming Destination</p>
             <p>Watch anime online free with English SUB & DUB in crystal-clear HD quality</p>
             
             <div class="cta-buttons">
                 <a href="https://hianime.co.at/" class="cta-button" target="_blank" rel="noopener">
-                    🎭 Start Watching Now →
+                    🎬 Visit HiAnime →
+                </a>
+                <a href="https://aniwatch.tv.in/" class="cta-button aniwatch" target="_blank" rel="noopener">
+                    🎭 Visit Aniwatch →
                 </a>
                 <a href="https://hianime.co.at/anime-list/" class="cta-button secondary" target="_blank" rel="noopener">
                     📺 Browse Anime Library
@@ -374,47 +522,91 @@
             </div>
         </header>
 
+        <!-- Platforms Section -->
+        <section class="platforms fade-in">
+            <h2>🌟 Our Anime Streaming Platforms</h2>
+            <p>Choose your preferred platform for the ultimate anime experience</p>
+            
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <div class="platform-name">🎬 HiAnime</div>
+                    <div class="platform-domain">hianime.co.at</div>
+                    <p class="platform-description">
+                        Premium anime streaming experience with extensive library, HD quality, and lightning-fast servers. 
+                        Perfect for binge-watching your favorite series.
+                    </p>
+                    <a href="https://hianime.co.at/" class="platform-button" target="_blank" rel="noopener">
+                        Launch HiAnime
+                    </a>
+                </div>
+                
+                <div class="platform-card aniwatch-card">
+                    <div class="platform-name">🎭 Aniwatch</div>
+                    <div class="platform-domain">aniwatch.tv.in</div>
+                    <p class="platform-description">
+                        Enhanced viewing experience with advanced features, smooth streaming, and comprehensive anime collection. 
+                        Your gateway to endless entertainment.
+                    </p>
+                    <a href="https://aniwatch.tv.in/" class="platform-button" target="_blank" rel="noopener">
+                        Launch Aniwatch
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- Features Section -->
         <section class="features">
             <div class="feature-card fade-in">
                 <span class="feature-icon">🎭</span>
                 <h3 class="feature-title">SUB & DUB Available</h3>
-                <p class="feature-description">Watch anime with English subtitles or full English dubbing. Choose your preferred viewing experience.</p>
+                <p class="feature-description">Watch anime with English subtitles or full English dubbing. Choose your preferred viewing experience on both platforms.</p>
             </div>
             
             <div class="feature-card fade-in">
                 <span class="feature-icon">📱</span>
                 <h3 class="feature-title">Multi-Device Support</h3>
-                <p class="feature-description">Stream on desktop, tablet, or mobile. Responsive design for optimal viewing everywhere.</p>
+                <p class="feature-description">Stream on desktop, tablet, or mobile. Responsive design for optimal viewing everywhere across HiAnime & Aniwatch.</p>
             </div>
             
             <div class="feature-card fade-in">
                 <span class="feature-icon">⚡</span>
                 <h3 class="feature-title">Lightning Fast</h3>
-                <p class="feature-description">High-speed servers ensure smooth playback without buffering. HD quality guaranteed.</p>
+                <p class="feature-description">High-speed servers ensure smooth playback without buffering. HD quality guaranteed on both platforms.</p>
             </div>
             
             <div class="feature-card fade-in">
                 <span class="feature-icon">🆓</span>
                 <h3 class="feature-title">Completely Free</h3>
-                <p class="feature-description">No subscription fees, no hidden costs. Unlimited anime streaming absolutely free.</p>
+                <p class="feature-description">No subscription fees, no hidden costs. Unlimited anime streaming absolutely free on HiAnime and Aniwatch.</p>
+            </div>
+            
+            <div class="feature-card fade-in">
+                <span class="feature-icon">🌐</span>
+                <h3 class="feature-title">Dual Platform Access</h3>
+                <p class="feature-description">Access the same great content through two optimized platforms - HiAnime and Aniwatch for maximum convenience.</p>
+            </div>
+            
+            <div class="feature-card fade-in">
+                <span class="feature-icon">🔄</span>
+                <h3 class="feature-title">Always Updated</h3>
+                <p class="feature-description">Latest anime episodes available immediately. Both platforms stay updated with the newest releases and popular series.</p>
             </div>
         </section>
 
         <!-- Statistics Section -->
         <section class="stats fade-in">
-            <h2>🏆 Platform Statistics</h2>
+            <h2>🏆 Combined Platform Statistics</h2>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <span class="stat-number">10,000+</span>
+                    <span class="stat-number">15,000+</span>
                     <span class="stat-label">Anime Series</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">2,000+</span>
+                    <span class="stat-number">3,000+</span>
                     <span class="stat-label">Movies</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">500K+</span>
+                    <span class="stat-number">1M+</span>
                     <span class="stat-label">Happy Users</span>
                 </div>
                 <div class="stat-item">
@@ -426,7 +618,7 @@
 
         <!-- Social Links Section -->
         <section class="social-section fade-in">
-            <h2>🌐 Follow HiAnime Official</h2>
+            <h2>🌐 Follow HiAnime & Aniwatch Official</h2>
             <p>Join our community across all platforms for latest updates and anime discussions</p>
             
             <div class="social-links">
@@ -445,22 +637,24 @@
         <!-- Footer -->
         <footer class="footer fade-in">
             <h3>🎬 Ready to Start Your Anime Journey?</h3>
-            <p>Join millions of anime fans who trust HiAnime for the best streaming experience</p>
+            <p>Join millions of anime fans who trust HiAnime & Aniwatch for the best streaming experience</p>
             
             <div class="footer-links">
-                <a href="https://hianime.co.at/" target="_blank" rel="noopener">Main Website</a>
+                <a href="https://hianime.co.at/" target="_blank" rel="noopener">HiAnime Website</a>
+                <a href="https://aniwatch.tv.in/" target="_blank" rel="noopener">Aniwatch Website</a>
                 <a href="https://hianime.co.at/anime-list/" target="_blank" rel="noopener">Latest Episodes</a>
                 <a href="https://hianime.co.at/anime/?status=&type=&sub=&order=popular" target="_blank" rel="noopener">Popular Anime</a>
                 <a href="https://hianime.co.at/anime/?status=&type=movie&sub=&order=" target="_blank" rel="noopener">Anime Movies</a>
             </div>
             
             <p style="margin-top: 30px; opacity: 0.7;">
-                &copy; 2025 HiAnime Official | 
-                <a href="https://hianime.co.at/" style="color: #4ecdc4;" target="_blank" rel="noopener">Free Anime Streaming Platform</a>
+                &copy; 2025 HiAnime & Aniwatch Official | 
+                <a href="https://hianime.co.at/" style="color: #4ecdc4;" target="_blank" rel="noopener">hianime.co.at</a> • 
+                <a href="https://aniwatch.tv.in/" style="color: #f39c12;" target="_blank" rel="noopener">aniwatch.tv.in</a>
             </p>
             
             <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
-                🌟 Experience premium anime streaming at <strong>hianime.co.at</strong> - Your ultimate anime destination!
+                🌟 Experience premium anime streaming at <strong>hianime.co.at</strong> & <strong>aniwatch.tv.in</strong> - Your ultimate anime destinations!
             </p>
         </footer>
     </div>
@@ -498,7 +692,7 @@
             }, observerOptions);
 
             // Observe all fade-in elements
-            document.querySelectorAll('.feature-card, .stats, .social-section').forEach(el => {
+            document.querySelectorAll('.feature-card, .stats, .social-section, .platforms').forEach(el => {
                 el.style.opacity = '0';
                 el.style.transform = 'translateY(30px)';
                 el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -542,7 +736,7 @@
             }
 
             // Click tracking for analytics
-            document.querySelectorAll('.cta-button, .social-link').forEach(button => {
+            document.querySelectorAll('.cta-button, .social-link, .platform-button').forEach(button => {
                 button.addEventListener('click', function() {
                     const destination = this.href;
                     const text = this.textContent.trim();
