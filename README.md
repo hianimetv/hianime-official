@@ -44,6 +44,7 @@ HiAnime.co.at is a premium anime streaming platform that provides free access to
 
 ### Quick Access
 1. **Visit** [hianime.co.at](https://hianime.co.at/)
+   **Visit** [hianimez.ro](https://hianimez.ro/)
 2. **Browse** our extensive anime library
 3. **Select** your preferred anime series or movie
 4. **Choose** SUB or DUB version
